@@ -1,0 +1,12 @@
+# Python caches
+__pycache__/
+*.pyc
+
+# Local AI Models and databases
+models/
+db/
+.streamlit/
+
+# Virtual environment
+venv/
+.env
