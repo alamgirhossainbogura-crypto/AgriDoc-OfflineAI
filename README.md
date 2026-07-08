@@ -37,6 +37,13 @@ This project strictly targets the **ADTC Standard Laptop Profile** (Intel i5/Ryz
 
 ## 🚀 How to Run Locally
 
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/YOUR_USERNAME/AgriDoc-OfflineAI.git](https://github.com/YOUR_USERNAME/AgriDoc-OfflineAI.git)
+cd AgriDoc-OfflineAI 
+
+---
+
 ### 2. Download the Model File
 ​Since large model files cannot be uploaded directly to GitHub, download the weights manually:
 ​Download phi-3-mini-4k-instruct.Q4_K_M.gguf from Hugging Face.
