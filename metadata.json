@@ -1,0 +1,37 @@
+{
+  "team_id": "agridoc-offline-team",
+  "domain": "agriculture_ai",
+  "language_scope": ["en"],
+  "african_alpha_claim": false,
+  "budget_laptop_claim": true,
+  "submitter": {
+    "name": "MD. ABDUR RAHMAN HRIDOY",
+    "email": "alamgirhossainbogura@gmail.com",
+    "github_handle": "alamgirhossainbogura-crypto"
+  },
+  "cross_disciplinary_pairing": {
+    "discipline": "agriculture",
+    "load_bearing": true,
+    "description": "An offline agricultural intelligence system providing cultivation guides, disease diagnosis, and localized expert assistance for smallholder farmers."
+  },
+  "test_prompts": [
+    {
+      "prompt_id": "tp_001",
+      "prompt": "What is the major disease threat for Cassava and what are its remedies?"
+    },
+    {
+      "prompt_id": "tp_002",
+      "prompt": "Provide a step-by-step cultivation guide for maize."
+    }
+  ],
+  "model": {
+    "name": "Phi-3-mini-4k-instruct-Q4_K_M",
+    "runtime": "llama.cpp",
+    "quantization": "GGUF Q4_K_M",
+    "parameters_estimate": "3.8B",
+    "packaging": "binary_bundle"
+  },
+  "_runtime": {
+    "model_path": "model/phi-3-mini-4k-instruct-Q4_K_M.gguf"
+  }
+}
